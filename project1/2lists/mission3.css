@@ -1,0 +1,46 @@
+/*实现一个两栏布局，右侧固定宽度，左侧根据浏览器宽度进行自适应变化*/
+/*#a {
+	float: right;
+	width: 360px;
+	background-color: red;
+	height: 300px;
+}
+
+#b {
+	float: right;
+	background-color: blue;
+	height: 300px;
+	width: calc(100% - 360px);
+}*/
+/*-------------------function1----------------------*/
+/*#a {
+	float: right;
+	width: 360px;
+	background-color: red;
+	height: 300px;
+}
+
+#b {
+	overflow: auto;
+	background-color: blue;
+	height: 300px;
+}*/
+/*-------------------function2----------------------*/
+body {
+	display: flex;
+	flex-flow: row-reverse wrap;
+}
+
+#a {
+	width: 360px;
+	background-color: red;
+	height: 300px;
+	flex: 0 360px;
+}
+
+#b {
+	flex: 1 360px;
+	background-color: blue;
+	height: 300px;
+}
+/*-------------------function3----------------------*/

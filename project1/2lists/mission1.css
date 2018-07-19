@@ -1,0 +1,47 @@
+/*实现一个两栏布局，左侧占30%宽度，右侧占70%宽度*/
+#a {
+	float: left;
+	width: 30%;
+	background-color: red;
+	height: 300px;
+}
+
+#b {
+	float: left;
+	width: 70%;
+	background-color: blue;
+	height: 300px;
+}
+/*-------------------function1----------------------*/
+/*#a {
+	position: relative;
+	width: 30%;
+	background-color: red;
+	height: 300px;
+}
+
+#b {
+	position: relative;
+	width: 70%;
+	background-color: blue;
+	height: 300px;
+	left: 30%;
+	bottom: 300px;
+}*/
+/*-------------------function2----------------------*/
+/*body {
+	display: flex;
+}
+
+#a {
+	width: 30%;
+	background-color: red;
+	height: 300px;
+}
+
+#b {
+	width: 70%;
+	background-color: blue;
+	height: 300px;
+}*/
+/*-------------------function3----------------------*/
